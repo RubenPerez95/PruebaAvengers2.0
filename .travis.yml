@@ -5,8 +5,8 @@ deploy:
   provider: heroku
   api_key:
     secure: b5S8R4hvffLpPU4VIkV/5Q/OBId3sIcUhmob3jXvoayPUz8Hxlm1mlIDuXx84TAgNUhB6r8hb2EZT/eSX6MIBa/pgRIb6VbpYUuqEGuHPGNN6+JTyU5oobuDoAmArSOQXp+AySxcOlE8SopJuzAOR3yV7NxZf6rW4VRV++37g8F05d3XLlHcA5H41LjNpSa47sL4ktlljWfwYP/wikTW8tL0JcMUAm47SGUocHz+FV4t0Di5OAqpBtbwh24GoB7Ow1V6KeHN30S6NUL/oOlN+EgaxkfbaFTSaRdGCG6BMSaFAinvX/lyo4b7Hd0JhXGjlkN/Oq90uvcEEB3TyGEtaD4pg28qqLPaOSwLQ4eEYqyEzXYq7SxCDqiFTqTgYjOPPtnPrwDWh5W3qSZwUCvcACgM34FvxcDAOo66gdxfH6M9JKRyjhPV34u2WhmeT72XXMqY9UKIV9eOd0QqoiJsfGISiSqrmzmFErSlo6lzq1oNhvH9iaPUuX/HwvZLp5M5ioUGws1wE4ivz/o3jag9l6k63ikzls6xev/AXq0GIj88++XqRdNX4/5OptuGGTtI109GOEdxH4YEkFINVULaG5VThgSd4nUL4/zYGolJB9HiZmGdRlXuku04z4IuJCV7UMk9xJt2iy1VArCER6ZySBTeysLU3QsBSEyNw0T403Q=
-  app: pruebaavengers
+  app: pruebaavengers2.0
   on:
-    repo: RubenPerez95/PruebaAvengers
+    repo: RubenPerez95/PruebaAvengers2.0
 notifications:
     slack: e3-avengerslive:uzLr8FFBLr3hOUnrBLNto2I6
