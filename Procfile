@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/*.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar C:\Users\ruben\git\PruebaAvengers2.0\PruebaAvengers\target\avengers-1.0.0-BUILD-SNAPSHOT.jar
