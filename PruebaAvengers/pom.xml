@@ -6,7 +6,6 @@
 	<artifactId>avengers</artifactId>
 	<name>PruebaAvengers</name>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<java-version>1.6</java-version>
