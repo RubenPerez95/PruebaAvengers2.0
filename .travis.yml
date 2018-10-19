@@ -13,4 +13,4 @@ notifications:
 services: mongo
 before_script:
   - sleep 15
-  - mongo --eval 'db.avengerslive({user:"usuarioGeneral",pwd:"usuarioGeneral2018",roles:["readWrite"]});'
+  - mongo --eval 'db.avengerslive({user:"usuarioGeneral",pwd:"usuarioGeneral2018",roles:["readWrite"]})'
