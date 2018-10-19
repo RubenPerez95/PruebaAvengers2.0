@@ -10,3 +10,4 @@ deploy:
     repo: RubenPerez95/PruebaAvengers2.0
 notifications:
   slack: e3-avengerslive:uzLr8FFBLr3hOUnrBLNto2I6
+ services: mongodb
