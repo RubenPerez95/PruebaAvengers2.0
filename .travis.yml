@@ -13,4 +13,3 @@ notifications:
 services: mongo
 before_script:
   - sleep 15
-  - mongo --eval 'db.avengerslive()'
