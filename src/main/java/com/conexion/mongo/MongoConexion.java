@@ -41,7 +41,7 @@ public class MongoConexion {
             }
  
 		}else {
-            System.out.println("Error: Conexión no establecida");
+            System.out.println("Error: Conexion no establecida");
 		}
 	}
  
