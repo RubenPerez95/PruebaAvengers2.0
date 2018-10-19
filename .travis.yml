@@ -11,3 +11,6 @@ deploy:
 notifications:
   slack: e3-avengerslive:uzLr8FFBLr3hOUnrBLNto2I6
 services: mongo
+before_script:
+  - sleep 15
+  - mongo mydb_test --eval 'db.avengerslive({user:"usuarioGeneral",pwd:"usuarioGeneral2018",roles:["readWrite"]});'
