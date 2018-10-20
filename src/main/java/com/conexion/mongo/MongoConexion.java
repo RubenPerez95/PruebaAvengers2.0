@@ -45,6 +45,7 @@ public class MongoConexion {
             System.out.println("Error: Conexion no establecida");
 		}
 	}
+	
  
 	/**
 	 * CrearConexion
