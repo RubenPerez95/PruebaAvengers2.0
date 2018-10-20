@@ -11,6 +11,8 @@ deploy:
 notifications:
   slack: e3-avengerslive:uzLr8FFBLr3hOUnrBLNto2I6
 services: mongodb
+packages: 
+  - mongodb-driver-sync
 env:
   global:
     - MONGODB_VERSION=3.4.0
@@ -23,4 +25,3 @@ before_install:
   - sleep 3
 before_script:
   - sleep 15
- packages: mongodb-driver-sync
