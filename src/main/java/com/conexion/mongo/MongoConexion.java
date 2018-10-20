@@ -4,6 +4,7 @@ import java.util.Set;
 import org.bson.Document;
  
 import com.mongodb.*;
+import com.mongodb.MongoClient;
 import com.mongodb.client.*;
  
 public class MongoConexion {

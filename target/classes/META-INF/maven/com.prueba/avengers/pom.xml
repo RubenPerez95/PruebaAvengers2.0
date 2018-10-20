@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.prueba</groupId>
 	<artifactId>avengers</artifactId>
 	<name>PruebaAvengers</name>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
-	<url>http://maven.apache.org</url>	
+	<url>http://maven.apache.org</url>
 	<packaging>jar</packaging>
 	<properties>
 		<java-version>1.6</java-version>
@@ -163,6 +164,11 @@
 			<artifactId>tomcat-jsp-api</artifactId>
 			<version>${tomcat.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongodb-driver-sync</artifactId>
+			<version>3.8.2</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>embeddedTomcatSample</finalName>
@@ -219,7 +225,7 @@
 					<mainClass>org.test.int1.Main</mainClass>
 				</configuration>
 			</plugin>
-			
+
 		</plugins>
 	</build>
 </project>
