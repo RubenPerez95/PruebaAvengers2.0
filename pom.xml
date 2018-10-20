@@ -164,6 +164,24 @@
 			<artifactId>tomcat-jsp-api</artifactId>
 			<version>${tomcat.version}</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.mongodb/bson -->
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>bson</artifactId>
+			<version>3.4.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>3.4.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-core -->
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongodb-driver-core</artifactId>
+			<version>3.4.0</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>embeddedTomcatSample</finalName>
