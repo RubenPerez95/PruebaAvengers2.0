@@ -23,3 +23,4 @@ before_install:
   - sleep 3
 before_script:
   - sleep 15
+ packages: mongodb-driver-sync
