@@ -11,13 +11,9 @@ deploy:
 notifications:
   slack: e3-avengerslive:uzLr8FFBLr3hOUnrBLNto2I6
 services: mongodb
-packages: 
-  - bson-3.4.0.jar
-  - mongodb-driver-3.4.0.jar
-  - mongodb-driver-core-3.4.0.jar
 env:
   global:
-    - MONGODB_VERSION=3.4.10
+    - MONGODB_VERSION=3.6.8
 before_install:
   - wget http://fastdl.mongodb.org/linux/mongodb-linux-x86_64-$MONGODB_VERSION.tgz
   - tar xfz mongodb-linux-x86_64-$MONGODB_VERSION.tgz
@@ -25,5 +21,3 @@ before_install:
   - mkdir -p data/db
   - mongod --dbpath=data/db &
   - sleep 3
-before_script:
-  - sleep 15
